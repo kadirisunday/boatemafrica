@@ -1,15 +1,250 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <!-- ======= Header ======= -->
+  <header id="header" class=" ">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-9 d-flex align-items-center justify-content-between">
+          <!-- <h1 class="logo"><a href="index.html">BOATEMA AFRICA</a></h1> -->
+      
+          <a href="index.html" class="logo"><img src="../src/assets/img/boatema_logo.png" alt="" class="img-fluid"></a>
+
+          <nav class="nav-menu d-none d-lg-block">
+            <ul>
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#product">product</a></li>
+               <li><a href="#contact">Contact</a></li>
+
+            </ul>
+          </nav><!-- .nav-menu -->
+
+          <a href="#about" class="get-started-btn scrollto">Shop Now</a>
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-8">
+          <h1>An African inspired fashion brand</h1>
+          <h2>We believe art should also be worn.</h2>
+          
+          <a href="#about" class="get-started-btn scrollto">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    
+        <section id="about" class="features">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1">
+                <div class="icon-box mt-lg-0">
+                  <h4>Boatema Africa</h4>
+                    <p>
+                      Boatema Africa (formally MUDHOUSE) is an African inspired fashion brand that uses African prints to create master pieces that promote African culture. Boatema Africa uses prints like Adire (Tie, Dye & Batik), real mudcloth/Bogolan, and art infusion to create its desings. 
+                      At Boatema Africa, we believe art shouldn't be placed on the walls alone, art should also be worn.
+                    </p>
+                
+                </div>
+                <div class="icon-box">
+                  
+                  <h4>Who we are</h4>
+                  <p>The users struggle because it is never an easy task to discover or travel the length and breadth of Africa to obtain these beautiful piece of Art. Solving this will be good for our business because we would move closer to our vision with every new design we bring to our customer's footsteps.</p>
+                </div>
+               
+              </div>
+              <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("../src/assets/img/boatema_logo.png");'></div>
+            </div>
+    
+          </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <!-- <section id="cta" class="cta">
+      <div class="container">
+
+        <div class="row">Imoleayomi1 cashier38117-01 84548754 tolulope01
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3>Call To Action</h3>
+            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Call To Action</a>
+          </div>
+        </div>
+
+      </div>
+    </section> -->
+
+
+        <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-lg-6 col-md-12 d-flex align-items-stretch">
+            <div class="icon-box">
+              <img src="assets/img/offica fabric sec.jpg" class="img-fluid" alt="">
+              <!-- <div class="icon"><i class="bx bx-file"></i></div> -->
+              
+            </div>
+          </div>
+
+            <div class="col-lg-6 col-md-12 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="section-title">
+                  <h4><a href="">What we do</a></h4>
+                 </div>
+                
+                <p>The Fabric section is a section in BOATEMA AFRICA that improve experience of obtaining top-notch African fabrics from culture to culture across Africa for everyone who appreciates style, culture and art.
+                  
+                </p>
+                <p class="mt-5"><a href="#about" class="get-started-btn scrollto">Shop Now</a></p>
+                
+              </div>
+              
+            </div>
+  
+          </div>
+        
+
+         
+        
+        </div>
+
+    
+    
+    </section><!-- End Services Section -->
+
+    
+
+    <!-- ======= Features Section ======= -->
+    
+
+  
+
+  
+
+    <!-- ======= Portfolio Section ======= -->
+
+    <product></product>
+    <!-- End Portfolio Section -->
+
+  
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+      </div>
+
+      <div>
+        
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15856.495220849052!2d3.362684926978815!3d6.506008574700944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNo%206%2C%20Areago%20street%2C%20Abule%20Oja%2Cyaba%20Lagos.!5e0!3m2!1sen!2sng!4v1613686312168!5m2!1sen!2sng" width="600" height="450" frameborder="0"  allowfullscreen=""></iframe>
+      </div>
+
+      <div class="container">
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="ri-map-pin-line"></i>
+                <h4>Location:</h4>
+                <p>No 6, Areago street, Abule Oja,yaba Lagos.</p>
+              </div>
+
+              <div class="email">
+                <i class="ri-mail-line"></i>
+                <h4>Email:</h4>
+                <p>contact@boatemafrica.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="ri-phone-line"></i>
+                <h4>Call:</h4>
+                <p>09053111932</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <Footer></Footer>
+ <!-- End Footer -->
+
+  <!-- <div id="preloader"></div>
+  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a> -->
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
+import Products from './components/Products.vue';
+import Footer from './components/Footer.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    'product': Products,
+    'Footer': Footer
   }
 }
 </script>
@@ -20,7 +255,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  /* color: #2c3e50; */
+  /* margin-top: 60px; */
 }
 </style>
